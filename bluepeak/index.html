@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>BluePeak | Landing Pages de Alta Conversão</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Landing Pages que Convertem | BluePeak">
+    <meta name="description" content="Criamos landing pages profissionais focadas em conversão. Aumente leads e vendas com design estratégico e copy persuasiva.">
+    <meta property="og:image" content="https://seusite.com/imagem.jpg">
+    <meta property="og:type" content="website">
+    <link rel="shortcut icon" href="favicon/logopeak.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/orcamento_style.css">
+    <link rel="stylesheet" href="./style/vagas.css">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style/timer.css">
+    <link rel="stylesheet" href="./style/scroll.css">
+    <script src="script/vagas-before-body.js"></script>
+    <script src="script/scroll.js"></script>
+</head>
+<body>
+
+    <nav>
+        <h1>BluePeak</h1>
+        <div>
+            <a href="#servicos">Serviços</a>
+            <a href="#depoimentos">Resultados</a>
+            <a href="#contato">Contato</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Transforme visitantes em clientes</h2>
+            <p>Landing pages criadas para gerar leads e vendas de verdade</p>
+
+            <div class="hero-buttons">
+                <a href="https://wa.me/5599999999999" target="_blank" class="btn">
+                    Falar no WhatsApp
+                </a>
+
+                <button class="btn secondary" onclick="irParaContato()">
+                    Ou enviar mensagem
+                </button>
+            </div>
+            <p class="contador-vagas">⚠️ Restam apenas <span id="vagas">5</span> vagas para este mês</p>
+        </div>
+    </section>
+
+    <section class="promo-timer">
+        ⏰ Oferta especial termina em: <span id="timer">10:00</span>
+
+        <div class="buttons-timer">
+            <a href="https://wa.me/5599999999999" target="_blank" class="btn-timer">
+                Falar no WhatsApp
+             </a>
+
+            <button class="btn-timer secondary" onclick="irParaContato()">
+                Ou enviar mensagem
+            </button>
+        </div>
+    </section>
+
+    <section id="servicos" class="reveal">
+        <h2>O que fazemos</h2>
+        <div class="cards">
+            <div class="card">Design profissional e moderno</div>
+            <div class="card">Copywriting persuasivo</div>
+            <div class="card">Otimização para conversão</div>
+        </div>
+    </section>
+
+    <section id="servicos" class="reveal">
+        <h2>Nosso processo estratégico</h2>
+        <div class="cards">
+            <div class="card">Coleta de informações úteis para o seu website</div>
+            <div class="card">Criação de Landing Pages</div>
+            <div class="card">Otimização e testes da Landing Pages</div>
+            <div class="card">Geração de resultados</div>
+        </div>
+    </section>
+
+    <section id="depoimentos">
+        <h3>Resultados reais</h3>
+
+        <div class="testimonial reveal">
+            "Aumentamos nossos leads em 3x depois da BluePeak."
+        </div>
+
+        <div class="testimonial reveal">
+            "Landing page rápida, bonita e que converte."
+        </div>
+
+        <div class="testimonial reveal">
+            "BluePeak tem uma ótima equipe de profissionais..."
+        </div>
+
+        <div class="testimonial reveal">
+            "A segurança digital do website ficou simplesmente incrível."
+        </div>
+    </section>
+
+    <section id="contato">
+        <form>
+            <h3>Fale com a gente</h3>
+            <input type="text" placeholder="Seu nome" required>
+            <input type="email" placeholder="Seu email" required>
+            <textarea rows="4" placeholder="Sua mensagem"></textarea>
+            <button class="btn">Enviar</button>
+        </form>
+
+        <div class="avaliacao-contato">
+            <h2>Nossa última avaliação</h2>
+            <div class="dados-usuario-avaliacao">
+                <img src="./images/thispersondoesnotexist.jpg" alt="Cliente satisfeito com a BluePeak">
+                <h2>Braian Ramos</h2>
+            </div>
+            <div class="estrelas-avaliação">
+                <h2>⭐⭐⭐⭐⭐</h2>
+            </div>
+            <div class="texto-avaliacao">
+                <p>Eu simplesmente amei trabalhar com a BluePeak! Ela é simplesmente incrível, com uma equipe diversa! Sem contar a qualidade de suporte técnico que ela disponibiliza, o sistema de segurança virtual, com HTTPS de altíssima qualidade da Digicert! Os preços e planos deles são incrivelmente baratos e práticos!</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 BluePeak - Todos os direitos reservados</p>
+    </footer>
+
+
+    <script>
+    function irParaContato() {
+        document.getElementById("contato").scrollIntoView({
+            behavior: "smooth"
+        });
+    }
+    </script>
+
+    <script src="script/orcamento.js"></script>
+    <script src="script/vagas.js"></script>
+    <script src="script/timer.js"></script>
+</body>
+</html>
