@@ -561,3 +561,36 @@ footer {
     font-size: 14px;
     cursor: pointer;
 }
+
+.acessibilidade button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+
+.acessibilidade button:active {
+    transform: scale(0.92);
+}
+
+.acessibilidade button:focus {
+    outline: 2px solid #3b82f6;
+    outline-offset: 2px;
+}
+
+
+.acessibilidade button:nth-child(3) {
+    background: #3b82f6;
+    color: white;
+}
+
+
+.acessibilidade button:nth-child(3):hover {
+    background: #2563eb;
+}
+
+
+.divider {
+    width: 1px;
+    height: 14px;
+    background: rgba(255, 255, 255, 0.2);
+}
