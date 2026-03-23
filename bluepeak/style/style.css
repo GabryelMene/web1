@@ -554,3 +554,10 @@ footer {
     width: 100px;
     border-radius: 50%;
 }
+
+.acessibilidade button {
+    margin-left: 8px;
+    padding: 6px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
